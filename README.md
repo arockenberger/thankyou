@@ -6,6 +6,8 @@ This is my gift to the awesome instructors, helpers, and the library staff that 
 
 Click on the link (https://arockenberger.github.io/thankyou/), and you will land on a website. Here, click on the big red button "Thank You!", sit back and feel good about yourself!
 
+*Tested with ChromeBrowser Version 78.0.3904.108 on a MacBookAir with macOS Mojave 10.14.6. Fonts don't render correctly and quotes are not centered on sticky note image when using a smartphone.*
+
 ## About
 
 This repository contains the following three files that are important to run the scripts:
