@@ -13,7 +13,7 @@ This repository contains the following three files that are important to run the
 * [index.html](index.html)
   * *HTML-code, containing style information*
 * [javascript.js](javascript.js)
-  * *Javascript file containing the quotes from the sticky notes and a script for generating quotes randomly.The script also contains style information.*
+  * *Javascript file containing the quotes from the sticky notes and a script for generating quotes randomly. The script also contains style information.*
 * [yellow-sticky_800px.png](yellow-sticky_800px.png)
   * *Image file of a sticky note, serves as a background image.*
 
@@ -27,4 +27,4 @@ The other files in the repository are not necessary for functionality, but might
 
 **Acknowledgements**
 
-* I basically used every help I could get with HTML, CSS, and Javascript. I made extensive use of the [W3Schools](https://www.w3schools.com/default.asp) explanations and examples and shamelessly copied and edited examples I found on [StackOverflow](https://stackoverflow.com/questions) by googling hard and made them fit my needs. I owe thanks to (@jaknil) for helping me debugging the Javascript (turns out you cannot have quotation marks within quotation marks…) and encouraging me to finish the project. The running versions of the [HTML](index.html) and the [Javascript](javascript.js) were finished at [BitRaf](https://bitraf.no/) on Dec 7, 2019.
+* I basically used every help I could get with HTML, CSS, and Javascript. I made extensive use of the [W3Schools](https://www.w3schools.com/default.asp) explanations and examples and shamelessly copied and edited examples I found on [StackOverflow](https://stackoverflow.com/questions) by googling hard and made them fit my needs. I owe thanks to [@jaknil](https://github.com/jaknil) for helping me debugging the Javascript (turns out you cannot have quotation marks within quotation marks…) and encouraging me to finish the project. The running versions of the [HTML](index.html) and the [Javascript](javascript.js) were finished at [BitRaf](https://bitraf.no/) on Dec 7, 2019.
