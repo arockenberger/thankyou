@@ -21,7 +21,7 @@ var quotes = [
 "The level was good - nice to feel I could keep up + even try extra commands",
 "This is very useful and practical course. I hope to have the second level of the python course to learn more. Thanks the teachers!",
 "Good to follow the steps; easy set-up; good help if needed",
-"made the threshold to start using git much lower. most was easy to understand. nice atmosphere :)",
+"Made the threshold to start using git much lower. most was easy to understand. nice atmosphere :)",
 "Great course! :) The best thing was that it was very practical and hands-on",
 "I really enjoyed the hands-on and simple to do exercises. You always learn more by getting a demonstration and then trying yourself. :)",
 "The post-its work well. Friendly tutors! Good teaching materials.",
@@ -34,7 +34,7 @@ var quotes = [
 "The course was great!",
 "Nice pace. Understandable. Thank you",
 "I understood git (finally!) Thank you!",
-"great that lesson is divided into smaller parts. makes it more understandable",
+"Great that lesson is divided into smaller parts. makes it more understandable",
 "Keep up the good work!",
 "I like the step by step learning process with simple examples.",
 "Learn new language",
@@ -53,7 +53,7 @@ var quotes = [
 "Possible to follow the speed and concrete tasks not just teaching the code",
 "Very organized. Very good lecture and methodology",
 "Passe tempo",
-"differences b/w MATLAB & Python & C++ [???] indexing",
+"Differences b/w MATLAB & Python & C++ [???] indexing",
 "Informative. Learned a lot.",
 "Clear explanations, good rythm at the end of the first period (before lunch)",
 "Liked visualizing data w/ the plot functions. Have never done that before",
@@ -63,9 +63,9 @@ var quotes = [
 "Looking forward for more workshops",
 "Course topics well designed to understandbasic usage of functions on Python",
 "Good pace and visualisation",
-"easy to understand examples",
-"mostly good to follow",
-"good explained",
+"Easy to understand examples",
+"Mostly good to follow",
+"Good explained",
 "Great!",
 "Good examples",
 "More course like this will be appreciated! Thanks!",
@@ -74,24 +74,29 @@ var quotes = [
 "Great course, will be useful in future certainly!",
 "The history-window for the bash commands was great + I managed to follow, understand + catch up!",
 "Good pace!",
-"very useful!",
+"Very useful!",
 "I like that you showed different things",
 "Very nice class! It would have been nice to test git in different contexts. (modifying python file, review of an article in word...) But you did cover a bit that. So I am happy :)",
 "Nice pace, you understood when it was a bit too fast and then slowed down. I managed to follow everything even if I didn't take the first course. (The command history would be very useful in both parts of the course)",
 "Very good course. I have now a much better understanding of R-Studio",
 "Great teachers. Would love more workshops on workflow, good coding style, tidyverse/tidydata, functions, github",
 "Nice that we could go through it at the same time",
-"nice overview of the many possiblities you have with R",
+"Nice overview of the many possiblities you have with R",
 "Thanks for organizing this, we appreaciate it indeed",
 "Veldig fint at navnene/forkortelsene forklares, f. eks. at 'c' står for combine. Takk for lærerikt kurs :)",
 "Very good and informative! Please have more workshops.",
 "Nice course, thanks!",
 "Very good approach from very simple datasets to the more complex ones :)",
-"good explanations",
+"Good explanations",
 "Great workshop! Very nice presenters and helpful material."
 ];
+
+//document.getElementById('quoteDisplay').style.fontFamily = "comic sans ms";
+//Change the font of the quotes. Put this in the function below. Tested and works.
 
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+  document.getElementById('quoteDisplay').style.fontFamily = "comic sans ms";
+  document.getElementById('quoteDisplay').style.fontSize = "46px";
 }
