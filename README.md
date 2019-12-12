@@ -6,7 +6,8 @@ This is my gift to the awesome instructors, helpers, and the library staff that 
 
 Click on the link (https://arockenberger.github.io/thankyou/), and you will land on a website. Here, click on the big red button "Thank You!", sit back and feel good about yourself!
 
-*Tested with ChromeBrowser Version 78.0.3904.108 on a MacBookAir with macOS Mojave 10.14.6. Fonts don't render correctly and quotes are not centered on sticky note image when using a smartphone.*
+*Tested with ChromeBrowser Version 78.0.3904.108 on a MacBookAir with macOS Mojave 10.14.6.'
+*With iPhone 8s (using Chrome or Safari) and Windows10 PC (using Opera, Chrome, Edge, or Firefox) fonts don't render correctly and quotes are not centered on sticky note image.*
 
 ## About
 
